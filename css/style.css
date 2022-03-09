@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  background-image: url("./proj1hero.jpg");
+  width: 80%;
+  margin: auto;
+  height: 80%;
+  margin-top: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #75bb9a;
+  padding-bottom: 80px;
+  -webkit-box-shadow: 0px 10px 15px 12px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 10px 15px 12px rgba(0, 0, 0, 0.3);
+  border-radius: .6rem;
+}
+
+.container h1 {
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.container .todoForm {
+  background: #ffffff;
+  width: 95%;
+  height: 60px;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .todoForm input[type="text"] {
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  height: 50px;
+}
+
+.container .todoForm input[type="submit"] {
+  width: 30%;
+  background-color: #75bb9a;
+  height: 60px;
+  border: none;
+  margin-left: 180px;
+  font-size: 25px;
+  color: #000000;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0px 10px 15px 12px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 15px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.container .todotask {
+  text-align: center;
+  width: 60%;
+  height: 80px;
+  margin: auto;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  padding-top: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 10px 15px 12px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 10px 15px 12px rgba(0, 0, 0, 0.3);
+  border-radius: .6rem;
+}
+
+.container .todotask .btn {
+  font-size: 20px;
+  margin-left: 50px;
+  background-color: red;
+  color: #ffffff;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
